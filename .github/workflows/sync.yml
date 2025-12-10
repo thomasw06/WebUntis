@@ -1,0 +1,61 @@
+name: Sync WebUntis Calendar
+
+# Ensure the workflow has permissions to update the repo (push)
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+on:
+  schedule:
+    # Sync every 6 hours
+    - cron: "1 */6 * * *"
+  workflow_dispatch: # Manual trigger enabled
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run sync script
+        env:
+          WEBUNTIS_SERVER: ${{ secrets.WEBUNTIS_SERVER }}
+          WEBUNTIS_SCHOOL: ${{ secrets.WEBUNTIS_SCHOOL }}
+          WEBUNTIS_USERNAME: ${{ secrets.WEBUNTIS_USERNAME }}
+          WEBUNTIS_PASSWORD: ${{ secrets.WEBUNTIS_PASSWORD }}
+          WEBUNTIS_CLASS_ID: ${{ secrets.WEBUNTIS_CLASS_ID }}
+        run: |
+          python src/sync.py
+
+      - name: "Debug: show docs contents and git status"
+        run: |
+          echo "=== ls -la docs ==="
+          ls -la docs || true
+          echo "=== head docs/calendar.ics (first 50 lines) ==="
+          head -n 50 docs/calendar.ics || echo "docs/calendar.ics not found"
+          echo "=== git status ==="
+          git status --porcelain -b || true
+          echo "=== git ls-files docs ==="
+          git ls-files docs || true
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/calendar.ics
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update calendar [skip ci]" && git push)
