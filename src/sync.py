@@ -105,8 +105,10 @@ def get_timetable(session, config, session_id, element_id, element_type, start_d
                     "element": {"id": element_id, "type": element_type},
                     "startDate": current_start.strftime("%Y%m%d"),
                     "endDate": current_end.strftime("%Y%m%d"),
-                    "showBooking": True, "showInfo": True, 
-                    "showSubstText": True, "showLsText": True, 
+                    "showBooking": True, 
+                    "showInfo": True,        
+                    "showSubstText": True,   
+                    "showLsText": True,      
                     "showStudentgroup": True,
                     "klasseFields": ["id", "name", "longname"],
                     "roomFields": ["id", "name", "longname"],
@@ -142,7 +144,28 @@ def parse_webuntis_time(date_int, time_int):
     time_str = str(time_int).zfill(4)
     return datetime.strptime(f"{date_str}{time_str}", "%Y%m%d%H%M")
 
-# --- MERGING LOGIC ---
+# --- MERGING LOGIC HELPER ---
+
+def merge_unique_text(current_text, new_text):
+    """
+    Merges two strings with ' | ' separator, ensuring no duplicates exist.
+    Example: merge('A', 'A') -> 'A'
+    Example: merge('A | B', 'A') -> 'A | B'
+    """
+    if not current_text:
+        return new_text
+    if not new_text:
+        return current_text
+    
+    # Split by separator, strip whitespace, remove empty strings
+    parts = [p.strip() for p in current_text.split('|') if p.strip()]
+    new_parts = [p.strip() for p in new_text.split('|') if p.strip()]
+    
+    for part in new_parts:
+        if part not in parts:
+            parts.append(part)
+            
+    return ' | '.join(parts)
 
 class ProcessedLesson:
     """Helper class to manage lesson data for merging"""
@@ -156,14 +179,17 @@ class ProcessedLesson:
         subjects = raw_lesson.get('su', [])
         self.subject_name = subjects[0].get('longname') or subjects[0].get('name') if subjects else "Lesson"
         
-        # Use Sets to avoid duplicates when merging (e.g. Serge + Serge = Serge)
+        # Use Sets to avoid duplicates when merging
         self.subjects = {su.get('longname') or su.get('name', '') for su in subjects}
         self.teachers = {te.get('longname') or te.get('name', '') for te in raw_lesson.get('te', [])}
         self.rooms = {ro.get('longname') or ro.get('name', '') for ro in raw_lesson.get('ro', [])}
         self.classes = {kl.get('longname') or kl.get('name', '') for kl in raw_lesson.get('kl', [])}
         
+        # Text fields
         self.info = raw_lesson.get('info', '')
+        self.lstext = raw_lesson.get('lstext', '') 
         self.subst_text = raw_lesson.get('substText', '')
+        
         self.code = raw_lesson.get('code', '') # e.g. 'cancelled'
 
     @property
@@ -180,18 +206,20 @@ class ProcessedLesson:
         self.teachers.update(other.teachers)
         self.rooms.update(other.rooms)
         self.classes.update(other.classes)
-        # Combine info if unique
-        if other.info and other.info not in self.info:
-            self.info = f"{self.info} | {other.info}" if self.info else other.info
+        
+        # Merge text fields using the unique helper
+        self.info = merge_unique_text(self.info, other.info)
+        self.lstext = merge_unique_text(self.lstext, other.lstext)
+        self.subst_text = merge_unique_text(self.subst_text, other.subst_text)
 
 def process_timetable(raw_timetable):
     """
     1. Filter cancellations
     2. Convert to objects
-    3. Merge overlaps (same time, same subject) -> Union of teachers/classes
-    4. Merge adjacent (same subject/teachers, continuous time) -> Extend end time
+    3. Merge overlaps (same time, same subject)
+    4. Merge adjacent (same subject/teachers, continuous time)
     """
-    # 1. Convert to ProcessedLesson objects and filter cancelled
+    # 1. Convert to ProcessedLesson objects
     lessons = []
     for raw in raw_timetable:
         if raw.get('code') == 'cancelled':
@@ -208,19 +236,15 @@ def process_timetable(raw_timetable):
     lessons.sort(key=lambda x: (x.start_dt, x.subject_name))
 
     # 2. HORIZONTAL MERGE: Combine items at the EXACT SAME time and Subject
-    # Key: (start_dt, end_dt, subject_name)
     merged_overlaps = {}
     
     for lesson in lessons:
         key = (lesson.start_dt, lesson.end_dt, lesson.subject_name)
-        
         if key in merged_overlaps:
-            # Merge into existing entry
             merged_overlaps[key].merge_with(lesson)
         else:
             merged_overlaps[key] = lesson
 
-    # Convert back to list and sort again
     consolidated_list = sorted(merged_overlaps.values(), key=lambda x: x.start_dt)
 
     # 3. VERTICAL MERGE: Combine adjacent blocks (e.g. 9-10 and 10-11)
@@ -232,14 +256,7 @@ def process_timetable(raw_timetable):
     for current in consolidated_list[1:]:
         previous = final_lessons[-1]
 
-        # Check conditions for merging:
-        # 1. Same Date
-        # 2. Previous End == Current Start (Continuous)
-        # 3. Same Subject Name
-        # 4. Same Teachers (Set comparison)
-        # 5. Same Rooms (Set comparison)
-        # 6. Same Classes (Set comparison)
-        
+        # Check conditions for merging adjacent blocks
         is_continuous = (previous.end_dt == current.start_dt)
         is_same_content = (
             previous.subject_name == current.subject_name and
@@ -251,7 +268,11 @@ def process_timetable(raw_timetable):
         if is_continuous and is_same_content:
             # Extend the previous lesson's end time
             previous.end_time = current.end_time
-            # (Date remains the same)
+            
+            # Merge text fields uniquely
+            previous.info = merge_unique_text(previous.info, current.info)
+            previous.lstext = merge_unique_text(previous.lstext, current.lstext)
+            previous.subst_text = merge_unique_text(previous.subst_text, current.subst_text)
         else:
             final_lessons.append(current)
 
@@ -272,10 +293,10 @@ def sync_calendar():
     print("🔍 Finding element...")
     element_id, element_type = get_element_id(session, config, session_id)
     
-    # Date range
+    # Date range: 30 days back, 90 days forward
     today = datetime.now().date()
-    start_date = today - timedelta(days=180)
-    end_date = today + timedelta(days=180)
+    start_date = today - timedelta(days=30)
+    end_date = today + timedelta(days=90)
     
     print(f"📅 Fetching raw data {start_date} to {end_date}...")
     raw_timetable = get_timetable(session, config, session_id, element_id, element_type, start_date, end_date)
@@ -294,7 +315,7 @@ def sync_calendar():
     for lesson in processed_lessons:
         event = Event()
         
-        # Prepare lists for display (Sort to keep consistent)
+        # Prepare sorted lists
         s_subjects = sorted(list(lesson.subjects))
         s_teachers = sorted(list(lesson.teachers))
         s_classes = sorted(list(lesson.classes))
@@ -309,16 +330,24 @@ def sync_calendar():
         event.add('dtstart', timezone.localize(lesson.start_dt))
         event.add('dtend', timezone.localize(lesson.end_dt))
         
-        # Description: Teachers / Classes
+        # Description Construction
         description_parts = []
         if s_teachers:
             description_parts.append(' / '.join(s_teachers))
         if s_classes:
             description_parts.append(' / '.join(s_classes))
+        
+        # Add a separator if there is info to display
+        if lesson.lstext or lesson.info or lesson.subst_text:
+            description_parts.append("-" * 20)
+            
+        # Add the 'Lesinformatie' (lstext) and other info
+        if lesson.lstext:
+            description_parts.append(f"ℹ️ {lesson.lstext}")
         if lesson.info:
-            description_parts.append(str(lesson.info))
+            description_parts.append(f"📝 {lesson.info}")
         if lesson.subst_text:
-            description_parts.append(str(lesson.subst_text))
+            description_parts.append(f"🔄 {lesson.subst_text}")
             
         if description_parts:
             event.add('description', '\n'.join(description_parts))
