@@ -293,10 +293,12 @@ def sync_calendar():
     print("🔍 Finding element...")
     element_id, element_type = get_element_id(session, config, session_id)
     
-    # Date range: 30 days back, 90 days forward
+    # Date range
+    days_back = 60
+    days_forward = 120
     today = datetime.now().date()
-    start_date = today - timedelta(days=30)
-    end_date = today + timedelta(days=90)
+    start_date = today - timedelta(days=days_back)
+    end_date = today + timedelta(days=days_forward)
     
     print(f"📅 Fetching raw data {start_date} to {end_date}...")
     raw_timetable = get_timetable(session, config, session_id, element_id, element_type, start_date, end_date)
