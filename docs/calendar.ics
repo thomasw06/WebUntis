@@ -73,7 +73,7 @@ DTSTART;TZID=Europe/Brussels:20260205T110000
 DTEND;TZID=Europe/Brussels:20260205T130000
 UID:1224869-20260205-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Python OOP
@@ -170,7 +170,7 @@ DTSTART;TZID=Europe/Brussels:20260212T110000
 DTEND;TZID=Europe/Brussels:20260212T130000
 UID:1224875-20260212-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -295,7 +295,7 @@ DTSTART;TZID=Europe/Brussels:20260226T110000
 DTEND;TZID=Europe/Brussels:20260226T130000
 UID:1224881-20260226-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -401,7 +401,7 @@ DTSTART;TZID=Europe/Brussels:20260305T110000
 DTEND;TZID=Europe/Brussels:20260305T130000
 UID:1224887-20260305-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -499,7 +499,7 @@ DTSTART;TZID=Europe/Brussels:20260311T140000
 DTEND;TZID=Europe/Brussels:20260311T160000
 UID:523117-20260311-1400@webuntis-sync
 DESCRIPTION:De Vos\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Analysis
@@ -526,7 +526,7 @@ DTSTART;TZID=Europe/Brussels:20260312T110000
 DTEND;TZID=Europe/Brussels:20260312T130000
 UID:1224893-20260312-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -631,7 +631,7 @@ DTSTART;TZID=Europe/Brussels:20260319T110000
 DTEND;TZID=Europe/Brussels:20260319T130000
 UID:1224899-20260319-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -710,7 +710,7 @@ DTSTART;TZID=Europe/Brussels:20260326T110000
 DTEND;TZID=Europe/Brussels:20260326T130000
 UID:1224905-20260326-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Python OOP
@@ -806,7 +806,7 @@ DTSTART;TZID=Europe/Brussels:20260402T110000
 DTEND;TZID=Europe/Brussels:20260402T130000
 UID:1224911-20260402-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -931,7 +931,7 @@ DTSTART;TZID=Europe/Brussels:20260423T110000
 DTEND;TZID=Europe/Brussels:20260423T130000
 UID:1224917-20260423-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -1037,7 +1037,7 @@ DTSTART;TZID=Europe/Brussels:20260430T110000
 DTEND;TZID=Europe/Brussels:20260430T130000
 UID:1224923-20260430-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -1144,7 +1144,7 @@ DTSTART;TZID=Europe/Brussels:20260507T110000
 DTEND;TZID=Europe/Brussels:20260507T130000
 UID:1224929-20260507-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -1322,7 +1322,7 @@ DTSTART;TZID=Europe/Brussels:20260521T110000
 DTEND;TZID=Europe/Brussels:20260521T130000
 UID:1224935-20260521-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -1399,7 +1399,7 @@ DTSTART;TZID=Europe/Brussels:20260528T110000
 DTEND;TZID=Europe/Brussels:20260528T130000
 UID:1224941-20260528-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
+LOCATION:03.07.ELL (49) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
