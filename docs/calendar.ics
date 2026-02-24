@@ -266,8 +266,8 @@ BEGIN:VEVENT
 SUMMARY:Web programming
 DTSTART;TZID=Europe/Brussels:20260225T140000
 DTEND;TZID=Europe/Brussels:20260225T160000
-UID:523105-20260225-1400@webuntis-sync
-DESCRIPTION:De Vos\n1IT_CSC1\n--------------------\nℹ️ Labo
+UID:1402008-20260225-1400@webuntis-sync
+DESCRIPTION:De Vos\n1IT_CSC1 / 1IT_SOF1\n--------------------\nℹ️ Labo
 LOCATION:03.06.ELL (60) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
