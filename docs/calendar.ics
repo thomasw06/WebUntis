@@ -804,8 +804,7 @@ SUMMARY:Web programming
 DTSTART;TZID=Europe/Brussels:20260401T140000
 DTEND;TZID=Europe/Brussels:20260401T160000
 UID:1386918-20260401-1400@webuntis-sync
-DESCRIPTION:Verhulst\n1IT_CSC1 / 1IT_SOF1\n--------------------\nℹ️ La
- bo
+DESCRIPTION:Verhulst\n1IT_CSC1\n--------------------\nℹ️ Labo
 LOCATION:03.06.ELL (60) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
@@ -1232,6 +1231,17 @@ DTEND;TZID=Europe/Brussels:20260512T130000
 UID:517728-20260512-1100@webuntis-sync
 DESCRIPTION:Horsmans\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_SOF1 / 1IT_SOF2
  \n--------------------\nℹ️ Theorie
+LOCATION:01.08_1.ELL (144) Aula\, 01.08_2.ELL (125) Aula\, 01.08_3.ELL (14
+ 4) Aula
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Infosessie eerstejaars
+DTSTART;TZID=Europe/Brussels:20260512T130000
+DTEND;TZID=Europe/Brussels:20260512T140000
+UID:1429229-20260512-1300@webuntis-sync
+DESCRIPTION:Hendrickx / Peetermans / Schraepen / Serneels / Van Grieken\n1
+ IT_AI1 / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 /
+  1IT_SOF2\n--------------------\nℹ️ Infosessie Minoren
 LOCATION:01.08_1.ELL (144) Aula\, 01.08_2.ELL (125) Aula\, 01.08_3.ELL (14
  4) Aula
 END:VEVENT
