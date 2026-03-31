@@ -623,7 +623,7 @@ UID:1120718-20260319-900@webuntis-sync
 DESCRIPTION:Verhulst\n1IT_AI1 / 1IT_BUS uitdovend / 1IT_CSC1 / 1IT_CSC2 / 
  1IT_CSC3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2 / 1IT_SOF3\n---------
  -----------\nℹ️ Theorie
-LOCATION:01.37.VIA (180) aula
+LOCATION:01.37.VIA (180) Aula
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux services
@@ -823,7 +823,7 @@ UID:1386906-20260402-900@webuntis-sync
 DESCRIPTION:Verhulst\n1IT_AI1 / 1IT_BUS uitdovend / 1IT_CSC1 / 1IT_CSC2 / 
  1IT_CSC3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2\n--------------------
  \nℹ️ Theorie
-LOCATION:00.025.NOO (297)
+LOCATION:00.025.NOO (297) aula Andries Kinsbergen
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux services
@@ -1505,7 +1505,7 @@ DTEND;TZID=Europe/Brussels:20260608T120000
 UID:1454970-20260608-900@webuntis-sync
 DESCRIPTION:Doggen / Michiels\n1IT_AI1 / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 
  1IT_IOT1\n--------------------\nℹ️ Digitaal vaardigheid
-LOCATION:01.30.VIA (180) Aula\, 01.37.VIA (180) aula
+LOCATION:01.30.VIA (180) Aula\, 01.37.VIA (180) Aula
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux services
@@ -1515,7 +1515,7 @@ UID:1454913-20260610-900@webuntis-sync
 DESCRIPTION:Peetermans / Vander Vennet / Vanhulle\n1IT_CSC1 / 1IT_CSC2 / 1
  IT_CSC3 / 2IT_IOT1\n--------------------\nℹ️ Digitaal examen vaardighe
  id
-LOCATION:01.30.VIA (180) Aula\, 01.37.VIA (180) aula
+LOCATION:01.30.VIA (180) Aula\, 01.37.VIA (180) Aula
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyber security
@@ -1524,7 +1524,7 @@ DTEND;TZID=Europe/Brussels:20260612T100000
 UID:1454742-20260612-900@webuntis-sync
 DESCRIPTION:Dams / De Magtige / Waeyaert\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 /
   1IT_SOF1 / 1IT_SOF2\n--------------------\nℹ️ Digitaal examen kennis
-LOCATION:01.27.VIA (265) Aula\, 02.05.VIA (100)
+LOCATION:01.27.VIA (265) Aula\, 02.05.VIA (100) projectlokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Routing & switching
