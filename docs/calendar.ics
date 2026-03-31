@@ -1188,14 +1188,6 @@ DESCRIPTION:Michiels\n1IT_CSC1\n--------------------\nℹ️ Labo
 LOCATION:03.08.ELL (40) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Communication
-DTSTART;TZID=Europe/Brussels:20260511T090000
-DTEND;TZID=Europe/Brussels:20260511T110000
-UID:501584-20260511-900@webuntis-sync
-DESCRIPTION:Van Eyken\n1IT_CSC1
-LOCATION:03.06.ELL (60) Leslokaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cyber security
 DTSTART;TZID=Europe/Brussels:20260511T140000
 DTEND;TZID=Europe/Brussels:20260511T160000
@@ -1234,6 +1226,14 @@ DESCRIPTION:Hendrickx / Peetermans / Schraepen / Serneels / Van Grieken\n1
   1IT_SOF2\n--------------------\nℹ️ Infosessie Minoren
 LOCATION:01.08_1.ELL (144) Aula\, 01.08_2.ELL (125) Aula\, 01.08_3.ELL (14
  4) Aula
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Communication
+DTSTART;TZID=Europe/Brussels:20260512T140000
+DTEND;TZID=Europe/Brussels:20260512T160000
+UID:1457754-20260512-1400@webuntis-sync
+DESCRIPTION:Van Eyken\n1IT_CSC1
+LOCATION:03.08.ELL (40) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Routing & switching
