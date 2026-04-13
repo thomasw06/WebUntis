@@ -1271,13 +1271,12 @@ LOCATION:03.10.ELL (50) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyber security
-DTSTART;TZID=Europe/Brussels:20260528T090000
+DTSTART;TZID=Europe/Brussels:20260528T100000
 DTEND;TZID=Europe/Brussels:20260528T110000
-UID:1444681-20260528-900@webuntis-sync
+UID:1479820-20260528-1000@webuntis-sync
 DESCRIPTION:Dams\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_SOF1 / 1IT_SOF2\n--
- ------------------\nℹ️ Theorie
-LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
+ ------------------\nℹ️ Online + Q&A: zie digitap
+LOCATION:OP_AFSTAND_IT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux services
@@ -1371,9 +1370,9 @@ BEGIN:VEVENT
 SUMMARY:Cyber security
 DTSTART;TZID=Europe/Brussels:20260612T090000
 DTEND;TZID=Europe/Brussels:20260612T100000
-UID:1454742-20260612-900@webuntis-sync
-DESCRIPTION:Dams / De Magtige / Waeyaert\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 /
-  1IT_SOF1 / 1IT_SOF2\n--------------------\nℹ️ Digitaal examen kennis
+UID:1454745-20260612-900@webuntis-sync
+DESCRIPTION:De Magtige / Waeyaert\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_SO
+ F1 / 1IT_SOF2\n--------------------\nℹ️ Digitaal examen kennis
 LOCATION:01.27.VIA (265) Aula\, 02.05.VIA (100) projectlokaal
 END:VEVENT
 BEGIN:VEVENT
