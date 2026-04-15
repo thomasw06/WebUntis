@@ -1272,11 +1272,11 @@ SUMMARY:Communication
 DTSTART;TZID=Europe/Brussels:20260601T090000
 DTEND;TZID=Europe/Brussels:20260601T110000
 UID:1454727-20260601-900@webuntis-sync
-DESCRIPTION:Binnemans / Van Eyken\n1IT_AI1 / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC
- 3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2\n--------------------\nℹ
- ️ Digitaal examen: vaardigheid
+DESCRIPTION:Bollaert / Charpentier / De Magtige / Van Eyken\n1IT_AI1 / 1IT
+ _CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_IMT1 / 1IT_SOF1 / 1IT_SOF2\n------------
+ --------\nℹ️ Digitaal examen: vaardigheid
 LOCATION:01.08_1.ELL (144) Aula\, 01.08_2.ELL (125) Aula\, 01.08_3.ELL (14
- 4) Aula\, 02.05.ELL (129) Aula
+ 4) Aula
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Analysis
