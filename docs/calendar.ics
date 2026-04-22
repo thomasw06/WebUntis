@@ -719,20 +719,22 @@ DESCRIPTION:Waeyaert\n1IT_CSC1\n--------------------\nℹ️ Labo
 LOCATION:03.13.ELL (40) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Web programming
+SUMMARY:Analysis
 DTSTART;TZID=Europe/Brussels:20260422T140000
 DTEND;TZID=Europe/Brussels:20260422T160000
-UID:523141-20260422-1400@webuntis-sync
-DESCRIPTION:De Vos\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.06.ELL (60) Leslokaal
+UID:1483308-20260422-1400@webuntis-sync
+DESCRIPTION:De Vries\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3\n--------------------
+ \nℹ️ Labo
+LOCATION:03.12.ELL (48) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Analysis
+SUMMARY:Web programming
 DTSTART;TZID=Europe/Brussels:20260422T160000
 DTEND;TZID=Europe/Brussels:20260422T180000
-UID:1324806-20260422-1600@webuntis-sync
-DESCRIPTION:De Vries\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.10.ELL (50) Leslokaal
+UID:1483314-20260422-1600@webuntis-sync
+DESCRIPTION:Van Battel\n1IT_CSC1 / 1IT_IMT1\n--------------------\nℹ️ 
+ Labo
+LOCATION:01.06.ELL (24) Gaming & VR
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Web programming
