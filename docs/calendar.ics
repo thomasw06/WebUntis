@@ -1283,8 +1283,8 @@ DTSTART;TZID=Europe/Brussels:20260601T090000
 DTEND;TZID=Europe/Brussels:20260601T110000
 UID:1454727-20260601-900@webuntis-sync
 DESCRIPTION:Bollaert / Charpentier / De Magtige / Van Eyken\n1IT_AI1 / 1IT
- _CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_IMT1 / 1IT_SOF1 / 1IT_SOF2\n------------
- --------\nℹ️ Digitaal examen: vaardigheid
+ _CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_SOF1 / 1IT_SOF2\n--------------------\n
+ ℹ️ Digitaal examen: vaardigheid
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
   01.08_3.ELL (144) Auditorium 3
 END:VEVENT
