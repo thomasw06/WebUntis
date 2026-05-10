@@ -4,36 +4,6 @@ PRODID:-//WebUntis Sync//webuntis-sync//EN
 X-WR-CALNAME:WebUntis Timetable
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-SUMMARY:System administration
-DTSTART;TZID=Europe/Brussels:20260310T100000
-DTEND;TZID=Europe/Brussels:20260310T110000
-UID:521279-20260310-1000@webuntis-sync
-DESCRIPTION:Horsmans\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3\n--------------------
- \nℹ️ Theorie
-LOCATION:02.03.ELL (129) Aula
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Routing & switching
-DTSTART;TZID=Europe/Brussels:20260310T110000
-DTEND;TZID=Europe/Brussels:20260310T130000
-UID:517686-20260310-1100@webuntis-sync
-DESCRIPTION:Horsmans\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_SOF1 / 1IT_SOF2
- \n--------------------\nℹ️ Theorie
-LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Analysis
-DTSTART;TZID=Europe/Brussels:20260310T160000
-DTEND;TZID=Europe/Brussels:20260310T180000
-UID:1324728-20260310-1600@webuntis-sync
-DESCRIPTION:Van Eyken\n1IT_AI1 / 1IT_BUS uitdovend / 1IT_CSC1 / 1IT_CSC2 /
-  1IT_CSC3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2\n-------------------
- -\nℹ️ Theorie
-LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Routing & switching
 DTSTART;TZID=Europe/Brussels:20260311T090000
 DTEND;TZID=Europe/Brussels:20260311T110000
