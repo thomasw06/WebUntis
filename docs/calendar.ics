@@ -4,33 +4,6 @@ PRODID:-//WebUntis Sync//webuntis-sync//EN
 X-WR-CALNAME:WebUntis Timetable
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-SUMMARY:Web programming
-DTSTART;TZID=Europe/Brussels:20260312T090000
-DTEND;TZID=Europe/Brussels:20260312T110000
-UID:1328915-20260312-900@webuntis-sync
-DESCRIPTION:De Vos\n1IT_AI1 / 1IT_BUS uitdovend / 1IT_CSC1 / 1IT_CSC2 / 1I
- T_CSC3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2\n--------------------\n
- ℹ️ Theorie
-LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Linux services
-DTSTART;TZID=Europe/Brussels:20260312T110000
-DTEND;TZID=Europe/Brussels:20260312T130000
-UID:1224893-20260312-1100@webuntis-sync
-DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (50) Leslokaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:System administration
-DTSTART;TZID=Europe/Brussels:20260312T140000
-DTEND;TZID=Europe/Brussels:20260312T160000
-UID:521360-20260312-1400@webuntis-sync
-DESCRIPTION:Horsmans\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.03.ELL (49) Leslokaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Python OOP
 DTSTART;TZID=Europe/Brussels:20260313T090000
 DTEND;TZID=Europe/Brussels:20260313T110000
