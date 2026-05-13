@@ -4,24 +4,6 @@ PRODID:-//WebUntis Sync//webuntis-sync//EN
 X-WR-CALNAME:WebUntis Timetable
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-SUMMARY:Python OOP
-DTSTART;TZID=Europe/Brussels:20260313T090000
-DTEND;TZID=Europe/Brussels:20260313T110000
-UID:517176-20260313-900@webuntis-sync
-DESCRIPTION:Michiels\n1IT_AI1 / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_IOT1\
- n--------------------\nℹ️ Theorie
-LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Python OOP
-DTSTART;TZID=Europe/Brussels:20260313T140000
-DTEND;TZID=Europe/Brussels:20260313T160000
-UID:516786-20260313-1400@webuntis-sync
-DESCRIPTION:Michiels\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.08.ELL (40) Leslokaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Communication
 DTSTART;TZID=Europe/Brussels:20260316T090000
 DTEND;TZID=Europe/Brussels:20260316T110000
