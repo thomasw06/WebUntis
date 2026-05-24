@@ -4,24 +4,6 @@ PRODID:-//WebUntis Sync//webuntis-sync//EN
 X-WR-CALNAME:WebUntis Timetable
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-SUMMARY:System administration
-DTSTART;TZID=Europe/Brussels:20260324T100000
-DTEND;TZID=Europe/Brussels:20260324T110000
-UID:1387237-20260324-1000@webuntis-sync
-DESCRIPTION:Horsmans\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3\n--------------------
- \nℹ️ Theorie
-LOCATION:01.30.VIA (180) Aula
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Routing & switching
-DTSTART;TZID=Europe/Brussels:20260324T110000
-DTEND;TZID=Europe/Brussels:20260324T130000
-UID:1387216-20260324-1100@webuntis-sync
-DESCRIPTION:Horsmans\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_SOF1 / 1IT_SOF2
- \n--------------------\nℹ️ Theorie
-LOCATION:01.27.VIA (265) Aula
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Routing & switching
 DTSTART;TZID=Europe/Brussels:20260325T090000
 DTEND;TZID=Europe/Brussels:20260325T110000
