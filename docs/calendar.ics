@@ -4,30 +4,6 @@ PRODID:-//WebUntis Sync//webuntis-sync//EN
 X-WR-CALNAME:WebUntis Timetable
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-SUMMARY:Routing & switching
-DTSTART;TZID=Europe/Brussels:20260325T090000
-DTEND;TZID=Europe/Brussels:20260325T110000
-UID:1325117-20260325-900@webuntis-sync
-DESCRIPTION:Waeyaert\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:01.03.ELL (30) Labo Netwerken
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cyber security
-DTSTART;TZID=Europe/Brussels:20260325T110000
-DTEND;TZID=Europe/Brussels:20260325T130000
-UID:1224648-20260325-1100@webuntis-sync
-DESCRIPTION:Waeyaert\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.13.ELL (40) Leslokaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Web programming
-DTSTART;TZID=Europe/Brussels:20260325T140000
-DTEND;TZID=Europe/Brussels:20260325T160000
-UID:523129-20260325-1400@webuntis-sync
-DESCRIPTION:De Vos\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.06.ELL (59) Leslokaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Web programming
 DTSTART;TZID=Europe/Brussels:20260326T090000
 DTEND;TZID=Europe/Brussels:20260326T110000
