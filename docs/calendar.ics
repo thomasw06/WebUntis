@@ -682,14 +682,6 @@ DESCRIPTION:Dams\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_SOF1 / 1IT_SOF2\n--
 LOCATION:OP_AFSTAND_IT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:System administration
-DTSTART;TZID=Europe/Brussels:20260528T140000
-DTEND;TZID=Europe/Brussels:20260528T160000
-UID:521408-20260528-1400@webuntis-sync
-DESCRIPTION:Horsmans\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.03.ELL (49) Leslokaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Python OOP
 DTSTART;TZID=Europe/Brussels:20260529T090000
 DTEND;TZID=Europe/Brussels:20260529T110000
@@ -736,8 +728,8 @@ DTSTART;TZID=Europe/Brussels:20260605T090000
 DTEND;TZID=Europe/Brussels:20260605T120000
 UID:1455201-20260605-900@webuntis-sync
 DESCRIPTION:De Vos / Horsmans / Similon / Van Battel\n1IT_AI1 / 1IT_CSC1 /
-  1IT_CSC2 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2\n-------------------
- -\nℹ️ Digitaal examen: kennis 60 min (+15 min)\, vaardigheid 120 min
+  1IT_CSC2 / 1IT_IMT1 / 1IT_SOF1 / 1IT_SOF2\n--------------------\nℹ️ D
+ igitaal examen: kennis 60 min (+15 min)\, vaardigheid 120 min
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
   01.08_3.ELL (144) Auditorium 3
 END:VEVENT
