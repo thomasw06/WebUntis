@@ -92,7 +92,7 @@ DTSTART;TZID=Europe/Brussels:20260423T110000
 DTEND;TZID=Europe/Brussels:20260423T130000
 UID:1224917-20260423-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (49) Leslokaal
+LOCATION:03.07.ELL (50) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -198,7 +198,7 @@ DTSTART;TZID=Europe/Brussels:20260430T110000
 DTEND;TZID=Europe/Brussels:20260430T130000
 UID:1224923-20260430-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (49) Leslokaal
+LOCATION:03.07.ELL (50) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -305,7 +305,7 @@ DTSTART;TZID=Europe/Brussels:20260507T110000
 DTEND;TZID=Europe/Brussels:20260507T130000
 UID:1224929-20260507-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (49) Leslokaal
+LOCATION:03.07.ELL (50) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -476,7 +476,7 @@ DTSTART;TZID=Europe/Brussels:20260521T110000
 DTEND;TZID=Europe/Brussels:20260521T130000
 UID:1224935-20260521-1100@webuntis-sync
 DESCRIPTION:Vander Vennet\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.07.ELL (49) Leslokaal
+LOCATION:03.07.ELL (50) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -529,7 +529,7 @@ DTSTART;TZID=Europe/Brussels:20260526T140000
 DTEND;TZID=Europe/Brussels:20260526T160000
 UID:1480981-20260526-1400@webuntis-sync
 DESCRIPTION:Van Eyken\n1IT_CSC1
-LOCATION:03.07.ELL (49) Leslokaal
+LOCATION:03.07.ELL (50) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Web programming
@@ -619,7 +619,7 @@ DTEND;TZID=Europe/Brussels:20260608T120000
 UID:1454970-20260608-900@webuntis-sync
 DESCRIPTION:Doggen / Nys\n1IT_AI1 / 1IT_CSC1 / 1IT_IOT1\n-----------------
  ---\nℹ️ Digitaal vaardigheid
-LOCATION:01.37.VIA (180) Aula
+LOCATION:01.37.VIA (180) aula
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux services
@@ -628,7 +628,7 @@ DTEND;TZID=Europe/Brussels:20260610T110000
 UID:1454913-20260610-900@webuntis-sync
 DESCRIPTION:Manderyck / Vander Vennet\n1IT_CSC1 / 1IT_CSC3\n--------------
  ------\nℹ️ Digitaal examen vaardigheid
-LOCATION:01.37.VIA (180) Aula
+LOCATION:01.37.VIA (180) aula
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyber security
@@ -701,7 +701,7 @@ UID:1505939-20260824-900@webuntis-sync
 DESCRIPTION:Binnemans / Van Eyken\n1IT_AI1 / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC
  3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2\n--------------------\nℹ
  ️ Mondeling examen vaardigheid
-LOCATION:03.04.ELL (50) Leslokaal\, 03.06.ELL (60) Leslokaal
+LOCATION:03.04.ELL (48) Leslokaal\, 03.06.ELL (60) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Communication
@@ -711,7 +711,7 @@ UID:1505966-20260825-900@webuntis-sync
 DESCRIPTION:Binnemans / Van Eyken\n1IT_AI1 / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC
  3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2\n--------------------\nℹ
  ️ Mondeling examen vaardigheid
-LOCATION:03.04.ELL (50) Leslokaal\, 03.06.ELL (60) Leslokaal
+LOCATION:03.04.ELL (48) Leslokaal\, 03.06.ELL (60) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyber security
@@ -775,7 +775,7 @@ UID:1506392-20260907-1500@webuntis-sync
 DESCRIPTION:Manderyck / Peetermans / Vander Vennet / Vanhulle\n1IT_CSC1 / 
  1IT_CSC2 / 1IT_CSC3 / 2IT_IOT1\n--------------------\nℹ️ Digitaal exam
  en vaardigheid
-LOCATION:03.04.ELL (50) Leslokaal\, 03.06.ELL (60) Leslokaal\, 03.10.ELL (
+LOCATION:03.04.ELL (48) Leslokaal\, 03.06.ELL (60) Leslokaal\, 03.10.ELL (
  50) Leslokaal\, 03.12.ELL (48) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
