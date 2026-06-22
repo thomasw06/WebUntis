@@ -4,40 +4,6 @@ PRODID:-//WebUntis Sync//webuntis-sync//EN
 X-WR-CALNAME:WebUntis Timetable
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-SUMMARY:Routing & switching
-DTSTART;TZID=Europe/Brussels:20260422T090000
-DTEND;TZID=Europe/Brussels:20260422T110000
-UID:1325129-20260422-900@webuntis-sync
-DESCRIPTION:Waeyaert\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:01.03.ELL (30) Labo Netwerken
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cyber security
-DTSTART;TZID=Europe/Brussels:20260422T110000
-DTEND;TZID=Europe/Brussels:20260422T130000
-UID:1224654-20260422-1100@webuntis-sync
-DESCRIPTION:Waeyaert\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.13.ELL (40) Leslokaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Analysis
-DTSTART;TZID=Europe/Brussels:20260422T140000
-DTEND;TZID=Europe/Brussels:20260422T160000
-UID:1483308-20260422-1400@webuntis-sync
-DESCRIPTION:De Vries\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3\n--------------------
- \nℹ️ Labo
-LOCATION:03.12.ELL (48) Leslokaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Web programming
-DTSTART;TZID=Europe/Brussels:20260422T160000
-DTEND;TZID=Europe/Brussels:20260422T180000
-UID:1483314-20260422-1600@webuntis-sync
-DESCRIPTION:Van Battel\n1IT_CSC1 / 1IT_IMT1\n--------------------\nℹ️ 
- Labo
-LOCATION:01.06.ELL (24) Gaming & VR
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Web programming
 DTSTART;TZID=Europe/Brussels:20260423T090000
 DTEND;TZID=Europe/Brussels:20260423T110000
