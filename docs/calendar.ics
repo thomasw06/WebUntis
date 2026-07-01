@@ -498,4 +498,14 @@ DESCRIPTION:Binnemans / Van Eyken\n1IT_AI1 / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC
  ️ Mondeling examen vaardigheid
 LOCATION:03.04.ELL (48) Leslokaal\, 03.06.ELL (59) Leslokaal
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Communication
+DTSTART;TZID=Europe/Brussels:20260825T090000
+DTEND;TZID=Europe/Brussels:20260825T180000
+UID:1505966-20260825-900@webuntis-sync
+DESCRIPTION:Binnemans / Van Eyken\n1IT_AI1 / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC
+ 3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2\n--------------------\nℹ
+ ️ Mondeling examen vaardigheid
+LOCATION:03.04.ELL (48) Leslokaal\, 03.06.ELL (59) Leslokaal
+END:VEVENT
 END:VCALENDAR
