@@ -508,4 +508,35 @@ DESCRIPTION:Binnemans / Van Eyken\n1IT_AI1 / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC
  ️ Mondeling examen vaardigheid
 LOCATION:01.21.ELL (40) Projectlokaal SOF
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cyber security
+DTSTART;TZID=Europe/Brussels:20260826T090000
+DTEND;TZID=Europe/Brussels:20260826T100000
+UID:1506056-20260826-900@webuntis-sync
+DESCRIPTION:Dams / De Magtige / Waeyaert\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 /
+  1IT_SOF1 / 1IT_SOF2 / 2IT_AI1\n--------------------\nℹ️ Digitaal exam
+ en kennis
+LOCATION:01.08_1.ELL (144) Aula\, 01.08_2.ELL (125) Aula\, 01.08_3.ELL (14
+ 4) Aula
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Routing & switching
+DTSTART;TZID=Europe/Brussels:20260826T140000
+DTEND;TZID=Europe/Brussels:20260826T150000
+UID:1506617-20260826-1400@webuntis-sync
+DESCRIPTION:Horsmans / Waeyaert\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_SOF1
+  / 1IT_SOF2\n--------------------\nℹ️ Digitaal examen kennis
+LOCATION:01.08_1.ELL (144) Aula\, 01.08_2.ELL (125) Aula\, 01.08_3.ELL (14
+ 4) Aula
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Routing & switching
+DTSTART;TZID=Europe/Brussels:20260826T160000
+DTEND;TZID=Europe/Brussels:20260826T180000
+UID:1506620-20260826-1600@webuntis-sync
+DESCRIPTION:Horsmans / Waeyaert\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_SOF1
+  / 1IT_SOF2\n--------------------\nℹ️ Digitaal examen vaardigheid
+LOCATION:01.08_1.ELL (144) Aula\, 01.08_2.ELL (125) Aula\, 01.08_3.ELL (14
+ 4) Aula
+END:VEVENT
 END:VCALENDAR
