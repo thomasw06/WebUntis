@@ -539,4 +539,16 @@ DESCRIPTION:Horsmans / Waeyaert\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_SOF1
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
   01.08_3.ELL (144) Auditorium 3
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Analysis
+DTSTART;TZID=Europe/Brussels:20260827T090000
+DTEND;TZID=Europe/Brussels:20260827T110000
+UID:1505822-20260827-900@webuntis-sync
+DESCRIPTION:De Vries / Van Eyken\n1ITVTIOT1 / 1IT_AI1 / 1IT_CSC1 / 1IT_CSC
+ 2 / 1IT_CSC3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2 / 1IT_VT_CSC1 / 1
+ IT_VT_SOF1\n--------------------\nℹ️ Digitaal examen: kennis 15 min (+
+ 4 min extra tijd)\, vaardigheid 105 min
+LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
+  01.08_3.ELL (144) Auditorium 3
+END:VEVENT
 END:VCALENDAR
