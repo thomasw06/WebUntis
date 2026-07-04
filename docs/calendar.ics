@@ -4,24 +4,6 @@ PRODID:-//WebUntis Sync//webuntis-sync//EN
 X-WR-CALNAME:WebUntis Timetable
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-SUMMARY:Communication
-DTSTART;TZID=Europe/Brussels:20260504T110000
-DTEND;TZID=Europe/Brussels:20260504T130000
-UID:1490216-20260504-1100@webuntis-sync
-DESCRIPTION:Van Eyken\n1IT_AI1 / 1IT_BUS uitdovend / 1IT_CSC1
-LOCATION:03.08.ELL (40) Leslokaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cyber security
-DTSTART;TZID=Europe/Brussels:20260504T140000
-DTEND;TZID=Europe/Brussels:20260504T160000
-UID:502541-20260504-1400@webuntis-sync
-DESCRIPTION:Dams\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_SOF1 / 1IT_SOF2\n--
- ------------------\nℹ️ Theorie
-LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:System administration
 DTSTART;TZID=Europe/Brussels:20260505T100000
 DTEND;TZID=Europe/Brussels:20260505T110000
@@ -548,6 +530,17 @@ DESCRIPTION:De Vries / Van Eyken\n1ITVTIOT1 / 1IT_AI1 / 1IT_CSC1 / 1IT_CSC
  2 / 1IT_CSC3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2 / 1IT_VT_CSC1 / 1
  IT_VT_SOF1\n--------------------\nℹ️ Digitaal examen: kennis 15 min (+
  4 min extra tijd)\, vaardigheid 105 min
+LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
+  01.08_3.ELL (144) Auditorium 3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Communication
+DTSTART;TZID=Europe/Brussels:20260828T120000
+DTEND;TZID=Europe/Brussels:20260828T140000
+UID:1505927-20260828-1200@webuntis-sync
+DESCRIPTION:Binnemans / Van Eyken\n1IT_AI1 / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC
+ 3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2\n--------------------\nℹ
+ ️ Digitaal examen vaardigheid
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
   01.08_3.ELL (144) Auditorium 3
 END:VEVENT
