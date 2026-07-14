@@ -9,7 +9,7 @@ DTSTART;TZID=Europe/Brussels:20260518T090000
 DTEND;TZID=Europe/Brussels:20260518T110000
 UID:501590-20260518-900@webuntis-sync
 DESCRIPTION:Van Eyken\n1IT_CSC1
-LOCATION:03.06.ELL (60) Leslokaal
+LOCATION:03.06.ELL (59) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyber security
@@ -82,7 +82,7 @@ DTSTART;TZID=Europe/Brussels:20260521T140000
 DTEND;TZID=Europe/Brussels:20260521T160000
 UID:521402-20260521-1400@webuntis-sync
 DESCRIPTION:Horsmans\n1IT_CSC1\n--------------------\nℹ️ Labo
-LOCATION:03.06.ELL (60) Leslokaal
+LOCATION:03.06.ELL (59) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Python OOP
@@ -147,7 +147,7 @@ DTEND;TZID=Europe/Brussels:20260527T160000
 UID:1508733-20260527-1400@webuntis-sync
 DESCRIPTION:De Vos / Van Battel / Verhulst\n1IT_AI1 / 1IT_CSC1\n----------
  ----------\nℹ️ Labo
-LOCATION:03.06.ELL (60) Leslokaal
+LOCATION:03.06.ELL (59) Leslokaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyber security
@@ -217,7 +217,7 @@ DTEND;TZID=Europe/Brussels:20260608T120000
 UID:1454970-20260608-900@webuntis-sync
 DESCRIPTION:Doggen / Nys\n1IT_AI1 / 1IT_CSC1 / 1IT_IOT1\n-----------------
  ---\nℹ️ Digitaal vaardigheid
-LOCATION:01.37.VIA (180) aula
+LOCATION:01.37.VIA (180) Aula
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux services
@@ -226,7 +226,7 @@ DTEND;TZID=Europe/Brussels:20260610T110000
 UID:1454913-20260610-900@webuntis-sync
 DESCRIPTION:Manderyck / Vander Vennet\n1IT_CSC1 / 1IT_CSC3\n--------------
  ------\nℹ️ Digitaal examen vaardigheid
-LOCATION:01.37.VIA (180) aula
+LOCATION:01.37.VIA (180) Aula
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cyber security
@@ -375,7 +375,7 @@ UID:1506392-20260907-1500@webuntis-sync
 DESCRIPTION:Manderyck / Peetermans / Vander Vennet / Vanhulle\n1IT_CSC1 / 
  1IT_CSC2 / 1IT_CSC3 / 2IT_IOT1\n--------------------\nℹ️ Digitaal exam
  en vaardigheid
-LOCATION:03.04.ELL (48) Leslokaal\, 03.06.ELL (60) Leslokaal\, 03.10.ELL (
+LOCATION:03.04.ELL (48) Leslokaal\, 03.06.ELL (59) Leslokaal\, 03.10.ELL (
  50) Leslokaal\, 03.12.ELL (48) Leslokaal
 END:VEVENT
 END:VCALENDAR
