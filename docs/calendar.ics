@@ -367,4 +367,15 @@ DESCRIPTION:Binnemans / Van Eyken / Van Rossem\n1IT_AI1 / 1IT_CSC1 / 1IT_C
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
   01.08_3.ELL (144) Auditorium 3
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Linux services
+DTSTART;TZID=Europe/Brussels:20260907T150000
+DTEND;TZID=Europe/Brussels:20260907T170000
+UID:1506392-20260907-1500@webuntis-sync
+DESCRIPTION:Manderyck / Peetermans / Vander Vennet / Vanhulle\n1IT_CSC1 / 
+ 1IT_CSC2 / 1IT_CSC3 / 2IT_IOT1\n--------------------\nℹ️ Digitaal exam
+ en vaardigheid
+LOCATION:03.04.ELL (48) Leslokaal\, 03.06.ELL (60) Leslokaal\, 03.10.ELL (
+ 50) Leslokaal\, 03.12.ELL (48) Leslokaal
+END:VEVENT
 END:VCALENDAR
