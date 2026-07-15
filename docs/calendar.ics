@@ -378,4 +378,22 @@ DESCRIPTION:Manderyck / Peetermans / Vander Vennet / Vanhulle\n1IT_CSC1 /
 LOCATION:03.04.ELL (48) Leslokaal\, 03.06.ELL (59) Leslokaal\, 03.10.ELL (
  50) Leslokaal\, 03.12.ELL (48) Leslokaal
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:System administration
+DTSTART;TZID=Europe/Brussels:20260908T090000
+DTEND;TZID=Europe/Brussels:20260908T100000
+UID:1506699-20260908-900@webuntis-sync
+DESCRIPTION:Horsmans / Luyts / Possemiers / Vanhulle\n1IT_CSC1 / 1IT_CSC2 
+ / 1IT_CSC3\n--------------------\nℹ️ Digitaal examen kennis
+LOCATION:02.03.ELL (129) Aula\, 02.05.ELL (129) Aula
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:System administration
+DTSTART;TZID=Europe/Brussels:20260908T110000
+DTEND;TZID=Europe/Brussels:20260908T130000
+UID:1506702-20260908-1100@webuntis-sync
+DESCRIPTION:Horsmans / Luyts / Possemiers / Vanhulle\n1IT_CSC1 / 1IT_CSC2 
+ / 1IT_CSC3\n--------------------\nℹ️ Digitaal examen vaardigheid
+LOCATION:02.03.ELL (129) Aula\, 02.05.ELL (129) Aula
+END:VEVENT
 END:VCALENDAR
