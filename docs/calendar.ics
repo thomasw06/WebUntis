@@ -396,4 +396,16 @@ DESCRIPTION:Horsmans / Luyts / Possemiers / Vanhulle\n1IT_CSC1 / 1IT_CSC2
  / 1IT_CSC3\n--------------------\nℹ️ Digitaal examen vaardigheid
 LOCATION:02.03.ELL (129) Aula\, 02.05.ELL (129) Aula
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Web programming
+DTSTART;TZID=Europe/Brussels:20260909T140000
+DTEND;TZID=Europe/Brussels:20260909T170000
+UID:1506750-20260909-1400@webuntis-sync
+DESCRIPTION:De Vos / Similon / Van Battel / Verhulst\n1IT_AI1 / 1IT_BUS ui
+ tdovend / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 
+ / 1IT_SOF2\n--------------------\nℹ️ Digitaal examen: kennis 60 min (+
+ 15 min)\, vaardigheid 120 min
+LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
+  01.08_3.ELL (144) Auditorium 3
+END:VEVENT
 END:VCALENDAR
