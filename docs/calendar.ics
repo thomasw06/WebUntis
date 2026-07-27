@@ -4,15 +4,6 @@ PRODID:-//WebUntis Sync//webuntis-sync//EN
 X-WR-CALNAME:WebUntis Timetable
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-SUMMARY:Web programming
-DTSTART;TZID=Europe/Brussels:20260527T140000
-DTEND;TZID=Europe/Brussels:20260527T160000
-UID:1508733-20260527-1400@webuntis-sync
-DESCRIPTION:De Vos / Van Battel / Verhulst\n1IT_AI1 / 1IT_CSC1\n----------
- ----------\nℹ️ Labo
-LOCATION:03.06.ELL (60) Leslokaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cyber security
 DTSTART;TZID=Europe/Brussels:20260528T100000
 DTEND;TZID=Europe/Brussels:20260528T110000
