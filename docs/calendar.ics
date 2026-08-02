@@ -172,4 +172,15 @@ DESCRIPTION:De Vries / Sturm / Van Acker / Van Eyken\n1ITVTIOT1 / 1IT_AI1
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
   01.08_3.ELL (144) Auditorium 3
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Communication
+DTSTART;TZID=Europe/Brussels:20260828T120000
+DTEND;TZID=Europe/Brussels:20260828T140000
+UID:1505927-20260828-1200@webuntis-sync
+DESCRIPTION:Binnemans / Van Eyken / Van Rossem\n1IT_AI1 / 1IT_CSC1 / 1IT_C
+ SC2 / 1IT_CSC3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2\n--------------
+ ------\nℹ️ Digitaal examen vaardigheid
+LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
+  01.08_3.ELL (144) Auditorium 3
+END:VEVENT
 END:VCALENDAR
