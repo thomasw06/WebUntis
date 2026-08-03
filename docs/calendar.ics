@@ -4,18 +4,6 @@ PRODID:-//WebUntis Sync//webuntis-sync//EN
 X-WR-CALNAME:WebUntis Timetable
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-SUMMARY:Analysis
-DTSTART;TZID=Europe/Brussels:20260603T090000
-DTEND;TZID=Europe/Brussels:20260603T110000
-UID:1480346-20260603-900@webuntis-sync
-DESCRIPTION:Michiels / Van Battel / Van Eyken / Verhulst\n1IT_BUS uitdoven
- d / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_IMT1 / 1IT_SOF1 / 1IT_SOF2\n-----
- ---------------\nℹ️ Digitaal examen: kennis 15 min (+4 min extra tijd)
- \, vaardigheid 105 min
-LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Web programming
 DTSTART;TZID=Europe/Brussels:20260605T090000
 DTEND;TZID=Europe/Brussels:20260605T120000
