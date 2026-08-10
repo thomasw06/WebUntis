@@ -4,15 +4,6 @@ PRODID:-//WebUntis Sync//webuntis-sync//EN
 X-WR-CALNAME:WebUntis Timetable
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-SUMMARY:Linux services
-DTSTART;TZID=Europe/Brussels:20260610T090000
-DTEND;TZID=Europe/Brussels:20260610T110000
-UID:1454913-20260610-900@webuntis-sync
-DESCRIPTION:Manderyck / Vander Vennet\n1IT_CSC1 / 1IT_CSC3\n--------------
- ------\nℹ️ Digitaal examen vaardigheid
-LOCATION:01.37.VIA (180) aula
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cyber security
 DTSTART;TZID=Europe/Brussels:20260612T090000
 DTEND;TZID=Europe/Brussels:20260612T100000
