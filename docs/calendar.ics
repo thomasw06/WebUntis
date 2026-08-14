@@ -12,7 +12,7 @@ DESCRIPTION:Michiels / Serneels / Van Battel / Waeyaert\n1IT_CSC1 / 1IT_CS
  C2 / 1IT_CSC3 / 1IT_SOF1\n--------------------\nℹ️ Digitaal examen: ke
  nnis
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
+  01.08_3.ELL (144) Auditorium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Routing & switching
@@ -23,7 +23,7 @@ DESCRIPTION:Michiels / Serneels / Van Battel / Waeyaert\n1IT_CSC1 / 1IT_CS
  C2 / 1IT_CSC3 / 1IT_SOF1\n--------------------\nℹ️ Digitaal examen: va
  ardigheid
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
+  01.08_3.ELL (144) Auditorium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -33,7 +33,7 @@ UID:1455117-20260617-1100@webuntis-sync
 DESCRIPTION:Cop / Horsmans / Van Merode / Vanhulle\n1IT_CSC1 / 1IT_CSC2 / 
  1IT_CSC3\n--------------------\nℹ️ Digitaal examen kennis
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
+  01.08_3.ELL (144) Auditorium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:System administration
@@ -43,7 +43,7 @@ UID:1455120-20260617-1300@webuntis-sync
 DESCRIPTION:Cop / Horsmans / Van Merode / Vanhulle\n1IT_CSC1 / 1IT_CSC2 / 
  1IT_CSC3\n--------------------\nℹ️ Digitaal examen vaardigheid
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
+  01.08_3.ELL (144) Auditorium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Inzagerecht_dag
@@ -86,7 +86,7 @@ DESCRIPTION:Dams / Waeyaert / de Magtige\n1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 /
   1IT_SOF1 / 1IT_SOF2 / 2IT_AI1\n--------------------\nℹ️ Digitaal exam
  en kennis
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
+  01.08_3.ELL (144) Auditorium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Routing & switching
@@ -97,7 +97,7 @@ DESCRIPTION:Bollaert / Horsmans / Van Merode / Waeyaert\n1IT_CSC1 / 1IT_CS
  C2 / 1IT_CSC3 / 1IT_SOF1 / 1IT_SOF2\n--------------------\nℹ️ Digitaal
   examen kennis
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
+  01.08_3.ELL (144) Auditorium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Routing & switching
@@ -108,7 +108,7 @@ DESCRIPTION:Bollaert / Horsmans / Van Merode / Waeyaert\n1IT_CSC1 / 1IT_CS
  C2 / 1IT_CSC3 / 1IT_SOF1 / 1IT_SOF2\n--------------------\nℹ️ Digitaal
   examen vaardigheid
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
+  01.08_3.ELL (144) Auditorium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Analysis
@@ -120,7 +120,7 @@ DESCRIPTION:De Vries / Sturm / Van Acker / Van Eyken\n1ITVTIOT1 / 1IT_AI1
  F2 / 1IT_VT_CSC1 / 1IT_VT_SOF1\n--------------------\nℹ️ Digitaal exam
  en: kennis 15 min (+4 min extra tijd)\, vaardigheid 105 min
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
+  01.08_3.ELL (144) Auditorium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Communication
@@ -131,7 +131,7 @@ DESCRIPTION:Binnemans / Van Eyken / Van Rossem\n1IT_AI1 / 1IT_CSC1 / 1IT_C
  SC2 / 1IT_CSC3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SOF2\n--------------
  ------\nℹ️ Digitaal examen vaardigheid
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
+  01.08_3.ELL (144) Auditorium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux services
@@ -172,6 +172,6 @@ DESCRIPTION:De Vos / Similon / Van Battel / Verhulst\n1IT_AI1 / 1IT_BUS ui
  / 1IT_SOF2\n--------------------\nℹ️ Digitaal examen: kennis 60 min (+
  15 min)\, vaardigheid 120 min
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium 3
+  01.08_3.ELL (144) Auditorium
 END:VEVENT
 END:VCALENDAR
