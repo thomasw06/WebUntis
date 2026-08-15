@@ -4,28 +4,6 @@ PRODID:-//WebUntis Sync//webuntis-sync//EN
 X-WR-CALNAME:WebUntis Timetable
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-SUMMARY:Routing & switching
-DTSTART;TZID=Europe/Brussels:20260615T090000
-DTEND;TZID=Europe/Brussels:20260615T100000
-UID:1455000-20260615-900@webuntis-sync
-DESCRIPTION:Michiels / Serneels / Van Battel / Waeyaert\n1IT_CSC1 / 1IT_CS
- C2 / 1IT_CSC3 / 1IT_SOF1\n--------------------\nℹ️ Digitaal examen: ke
- nnis
-LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Routing & switching
-DTSTART;TZID=Europe/Brussels:20260615T110000
-DTEND;TZID=Europe/Brussels:20260615T130000
-UID:1455003-20260615-1100@webuntis-sync
-DESCRIPTION:Michiels / Serneels / Van Battel / Waeyaert\n1IT_CSC1 / 1IT_CS
- C2 / 1IT_CSC3 / 1IT_SOF1\n--------------------\nℹ️ Digitaal examen: va
- ardigheid
-LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
-  01.08_3.ELL (144) Auditorium
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:System administration
 DTSTART;TZID=Europe/Brussels:20260617T110000
 DTEND;TZID=Europe/Brussels:20260617T120000
@@ -171,6 +149,17 @@ DESCRIPTION:De Vos / Similon / Van Battel / Verhulst\n1IT_AI1 / 1IT_BUS ui
  tdovend / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 
  / 1IT_SOF2\n--------------------\nℹ️ Digitaal examen: kennis 60 min (+
  15 min)\, vaardigheid 120 min
+LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
+  01.08_3.ELL (144) Auditorium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python OOP
+DTSTART;TZID=Europe/Brussels:20260910T090000
+DTEND;TZID=Europe/Brussels:20260910T120000
+UID:1506575-20260910-900@webuntis-sync
+DESCRIPTION:Doggen / Michiels / Nys / Schraepen\n1ITVTIOT1 / 1IT_AI1 / 1IT
+ _CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_IOT1 / 1IT_VT_CSC1\n--------------------
+ \nℹ️ Digitaal examen vaardigheid
 LOCATION:01.08_1.ELL (144) Auditorium 1\, 01.08_2.ELL (125) Auditorium 2\,
   01.08_3.ELL (144) Auditorium
 END:VEVENT
