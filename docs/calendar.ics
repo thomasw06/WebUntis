@@ -58,4 +58,16 @@ DESCRIPTION:Bollaert / Horsmans / Van Merode / Waeyaert\n1IT_CSC1 / 1IT_CS
 LOCATION:01.08_1.ELL (144) Aula\, 01.08_2.ELL (125) Aula\, 01.08_3.ELL (14
  4) Aula
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Analysis
+DTSTART;TZID=Europe/Brussels:20260827T090000
+DTEND;TZID=Europe/Brussels:20260827T110000
+UID:1505822-20260827-900@webuntis-sync
+DESCRIPTION:De Vries / Sturm / Van Acker / Van Eyken\n1ITVTIOT1 / 1IT_AI1 
+ / 1IT_CSC1 / 1IT_CSC2 / 1IT_CSC3 / 1IT_IMT1 / 1IT_IOT1 / 1IT_SOF1 / 1IT_SO
+ F2 / 1IT_VT_CSC1 / 1IT_VT_SOF1\n--------------------\nℹ️ Digitaal exam
+ en: kennis 15 min (+4 min extra tijd)\, vaardigheid 105 min
+LOCATION:01.08_1.ELL (144) Aula\, 01.08_2.ELL (125) Aula\, 01.08_3.ELL (14
+ 4) Aula
+END:VEVENT
 END:VCALENDAR
